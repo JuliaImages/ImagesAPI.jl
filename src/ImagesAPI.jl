@@ -14,4 +14,6 @@ Filters are image algorithms whose input and output are both images
 """
 abstract type AbstractImageFilter <: AbstractImageAlgorithm end
 
+include("utils.jl")
+
 end # module
